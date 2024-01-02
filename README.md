@@ -49,6 +49,8 @@ provider "dcloud" {
 
 ## Available VM and Networks
 
+### Virtual Machines Templates Inventory
+
 `topologies/vm_inventory.txt` describes all the Virtual Machines templates available at US East (RTP) dCLoud Data Center.
 If you want to use a different datacenter, then you need to validate this info per each DC. You can check this in topology builder, but for `inventory_vm_id` attribute info, you can use the terraform provider to get access to the specific information on each vm template available at each datacenter. Check terraform provider documentation
 
@@ -61,5 +63,14 @@ data "dcloud_inventory_vms" "available_vms" {
      value = data.dcloud_inventory_vms.available_vms
 }
 ```
+
+### Routed and Non-Routed Networks Inventory
+
+`topologies/tb_networks_inventory.json` describes all the Virtual Networks templates available at dCLoud. This files is grouped in two section
+
+- Layer 3 Routed Networks (with Direct Internet Access)
+- Layer 2 Non-Routed Networks (without direct internet access)
+
+Those networks are the same, not matter what Datacenter is in use.
 
 by [Freddy Bello](frbello@cisco.com)
