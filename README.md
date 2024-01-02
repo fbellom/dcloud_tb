@@ -49,7 +49,7 @@ provider "dcloud" {
 
 ## Available VM and Networks
 
-`vm_inventory.txt` describes all the Virtual Machines templates available at US East (RTP) dCLoud Data Center.
+`topologies/vm_inventory.txt` describes all the Virtual Machines templates available at US East (RTP) dCLoud Data Center.
 If you want to use a different datacenter, then you need to validate this info per each DC. You can check this in topology builder, but for `inventory_vm_id` attribute info, you can use the terraform provider to get access to the specific information on each vm template available at each datacenter. Check terraform provider documentation
 
 ```
