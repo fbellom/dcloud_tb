@@ -1,0 +1,4567 @@
+
+vms = {
+  "id" = "1704140094"
+  "inventory_vms" = tolist([
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "13007432"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:ab:18:a6"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "ISE-3-2"
+      "original_name" = "ISE-3-2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13357713"
+      "memory_mb" = 18432
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:3e:34"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:58:99"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:30:dd"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:a6:e4"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:65:24"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:1e:d2"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:41:6f"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:d5:f0"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:29:06"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cat9kv02-17-11-test"
+      "original_name" = "cat9kv02-17-11-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12324540"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:d7:91"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "Nexus_dashboard_2.3_node_1"
+      "original_name" = "Nexus_dashboard_2.3_node_1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12324541"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:7c:b8"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "Nexus_Dashboard_2.3_Node_2"
+      "original_name" = "Nexus_Dashboard_2.3_Node_2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "12994323"
+      "memory_mb" = 2048
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:dc:78"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "haos-10-1"
+      "original_name" = "haos-10-1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "13198088"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:24:a7"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6f:5f"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "nexus-dashboard-node-2test"
+      "original_name" = "nexus-dashboard-node-2test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 3
+      "datacenter" = "RTP"
+      "id" = "13208143"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:c5:9e"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "centos-7-test"
+      "original_name" = "centos-7-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12695114"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.100"
+          "mac_address" = "00:50:56:97:41:9e"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = "198.19.100.100"
+          "mac_address" = "00:50:56:97:b6:9d"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "CDE-ND-master-2.3.2b"
+      "original_name" = "CDE-ND-master-2.3.2b"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13056609"
+      "memory_mb" = 2048
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:d9:f9"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:c8:32"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "WANem-3-0"
+      "original_name" = "WANem-3-0"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "13099601"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:9b:04"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "fmcv300-7-2-4-169-plr-preconfig_dhcp"
+      "original_name" = "fmcv300-7-2-4-169-plr-preconfig_dhcp"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13099567"
+      "memory_mb" = 20480
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.32"
+          "mac_address" = "00:50:56:97:cf:f0"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vcenter-server-7-0-3-unconfig"
+      "original_name" = "vcenter-server-7-0-3-unconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "13099600"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:5c:de"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:9a:9c"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:1a:a4"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:2a:0b"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:73:d8"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:f4:00"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ba:0a"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:93:d8"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:14:93"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:93:f6"
+          "name" = "Network adapter 10"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "ftdv300-7-2-4-165-plr-preconfig_dhcp"
+      "original_name" = "ftdv300-7-2-4-165-plr-preconfig_dhcp"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12695115"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.101"
+          "mac_address" = "00:50:56:97:b6:31"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = "198.19.100.101"
+          "mac_address" = "00:50:56:97:6d:b3"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "CDE-ND-Node-1-2.3.2b"
+      "original_name" = "CDE-ND-Node-1-2.3.2b"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12695116"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.102"
+          "mac_address" = "00:50:56:97:b2:9d"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = "198.19.100.102"
+          "mac_address" = "00:50:56:97:b2:0c"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "CDE-ND-Node-2-2.3.2b"
+      "original_name" = "CDE-ND-Node-2-2.3.2b"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13358251"
+      "memory_mb" = 18432
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:53:57"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:8e:97"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:fe:3d"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:5c:b3"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:ff:42"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:08:00"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:59:a5"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:b8:9b"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:0c:0d"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cat9kv06-17-11-test"
+      "original_name" = "cat9kv06-17-11-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 20
+      "datacenter" = "RTP"
+      "id" = "13099566"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.134.201"
+          "mac_address" = ""
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "ESXi-6-7-v3-unconfig"
+      "original_name" = "ESXi-6-7-v3-unconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13099565"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:0b:88"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "truenas-13-unconfig"
+      "original_name" = "truenas-13-unconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "12017031"
+      "memory_mb" = 10240
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:11:2b"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:38:29"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:96:a3"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:e8:aa"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:e7:6b"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:56:18"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cde-nexus9500v64.10.3.1.FV1"
+      "original_name" = "cde-nexus9500v64.10.3.1.FV1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12350421"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:0f:07"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:e3:48"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6c:bf"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vManage-20.10.1"
+      "original_name" = "vManage-20.10.1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 6
+      "datacenter" = "RTP"
+      "id" = "13358017"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "L2-VLAN-3"
+          "ip_address" = "198.18.142.50"
+          "mac_address" = "00:50:56:97:f4:88"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "SNA_SMC_7_4"
+      "original_name" = "SNA_SMC_7_4"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13517141"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a3:52"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "ssm-on-prem-8"
+      "original_name" = "ssm-on-prem-8"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13088204"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:10:15"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "centos-9-test-2"
+      "original_name" = "centos-9-test-2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13212097"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:55:7a"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "ubuntu-22-04-server-80gb-preconfig-test"
+      "original_name" = "ubuntu-22-04-server-80gb-preconfig-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13507187"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:30:66"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cisco-dna-spaces-connector"
+      "original_name" = "cisco-dna-spaces-connector"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13507188"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:9b:95"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cisco-spaces-connector 3.x"
+      "original_name" = "cisco-spaces-connector 3.x"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "12375714"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "L2-VLAN-5"
+          "ip_address" = "192.168.250.190"
+          "mac_address" = "00:50:56:97:98:34"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "CDS"
+      "original_name" = "CDS"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "11537550"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "L3-VLAN-4"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:9b:ec"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-4"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ba:18"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:3d:b4"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:8c:30"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "generic-vEdge_20.8.1"
+      "original_name" = "generic-vEdge_20.8.1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13071420"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:68:ce"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "sp_cml2_2.6.0-5_amd64-6"
+      "original_name" = "sp_cml2_2.6.0-5_amd64-6"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "11537558"
+      "memory_mb" = 12288
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ed:e3"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "generic-pi_3.10.0.0.205"
+      "original_name" = "generic-pi_3.10.0.0.205"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "12350433"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:d4:e6"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:c7:8a"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vSmart-20.10.1"
+      "original_name" = "vSmart-20.10.1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "13020995"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:5c:de"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:9a:9c"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:1a:a4"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:2a:0b"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:73:d8"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:f4:00"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ba:0a"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:93:d8"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:14:93"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:93:f6"
+          "name" = "Network adapter 10"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "ftd_v300_7.2.4-165"
+      "original_name" = "ftd_v300_7.2.4-165"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13361309"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:0d:86"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "ubuntu-22-04-desktop-80gb-preconfig-ff"
+      "original_name" = "ubuntu-22-04-desktop-80gb-preconfig-ff"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13384833"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:4a:12"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "DevNetExpert_CWS"
+      "original_name" = "DevNetExpert_CWS"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 32
+      "datacenter" = "RTP"
+      "id" = "13406075"
+      "memory_mb" = 73728
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:27:2f:23"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "esxi-intersight"
+      "original_name" = "esxi-intersight"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13179990"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ec:ca"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "splunk-phantom-4-10-preconfig"
+      "original_name" = "splunk-phantom-4-10-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 76
+      "datacenter" = "RTP"
+      "id" = "13254494"
+      "memory_mb" = 337920
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:17:62"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:76:34"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "en-dnac-2_3_3_6"
+      "original_name" = "en-dnac-2_3_3_6"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 78
+      "datacenter" = "RTP"
+      "id" = "12369985"
+      "memory_mb" = 337920
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:72:a4"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6a:25"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:67:6c"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "dna_center_2350"
+      "original_name" = "dna_center_2350"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "13198071"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:10:83"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:e9:b7"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "nexus-dashboard-node1-test"
+      "original_name" = "nexus-dashboard-node1-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "13198072"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:c4:22"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:60:e5"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "nexus-dashboard-master-test"
+      "original_name" = "nexus-dashboard-master-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 76
+      "datacenter" = "RTP"
+      "id" = "13346997"
+      "memory_mb" = 262144
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ca:37"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:12:e6"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a0:03"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "en-dna-center_2370"
+      "original_name" = "en-dna-center_2370"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "12923679"
+      "memory_mb" = 12288
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:8e:98"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cls-u20-tmstack-22.8.6-221205-591"
+      "original_name" = "cls-u20-tmstack-22.8.6-221205-591"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "10995184"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.155"
+          "mac_address" = "00:50:56:97:99:ba"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "Intersight Appliance"
+      "original_name" = "Intersight Appliance"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13615128"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:13:b8"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:e3:bf"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:b3:5b"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:fe:20"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vbond-20-12-2"
+      "original_name" = "vbond-20-12-2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "13179989"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:50:a5"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "qradar-7-4-2-preconfig"
+      "original_name" = "qradar-7-4-2-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13191567"
+      "memory_mb" = 6144
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:13:4d"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:59:aa"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:39:1c"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "esa-13-5-preconfig"
+      "original_name" = "esa-13-5-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 6
+      "datacenter" = "RTP"
+      "id" = "13527504"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:3a:11"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:36:93"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:51:3c"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "c9800-cl-17-09-04a-fix"
+      "original_name" = "c9800-cl-17-09-04a-fix"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12193117"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.100"
+          "mac_address" = "00:50:56:97:0c:48"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.101"
+          "mac_address" = "00:50:56:97:94:0e"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "CDE-ND-2.3"
+      "original_name" = "CDE-ND-2.3"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13623015"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a0:e4"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6c:22"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:93:1c"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "cat8kv-17-12-2"
+      "original_name" = "cat8kv-17-12-2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "10078222"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:b8:d7"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "sec-fmc-7-0-plr"
+      "original_name" = "sec-fmc-7-0-plr"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "12990680"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a8:63"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:8b:71"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vsmart2-20-8-1-preconfig"
+      "original_name" = "vsmart2-20-8-1-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "13289103"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a4:bb"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:94:9f"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-5"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:c0:31"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cybervision-4-2-4-preconfig"
+      "original_name" = "cybervision-4-2-4-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "13615071"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:14:82"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:95:13"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:7d:73"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vmanage-20-12-2"
+      "original_name" = "vmanage-20-12-2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 1
+      "datacenter" = "RTP"
+      "id" = "13115421"
+      "memory_mb" = 2048
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.19.10.1"
+          "mac_address" = "00:50:56:b8:36:9e"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.1"
+          "mac_address" = "00:50:56:b8:43:c9"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = "198.19.10.81"
+          "mac_address" = "00:50:56:b8:22:89"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:b8:39:7a"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-5"
+          "ip_address" = "198.19.30.1"
+          "mac_address" = "00:50:56:b8:68:b4"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-6"
+          "ip_address" = "198.19.40.1"
+          "mac_address" = "00:50:56:b8:5a:f8"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:b8:01:de"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:b8:6d:9c"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:b8:50:5d"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:b8:3f:9c"
+          "name" = "Network adapter 10"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "asav-9-14-preconfig"
+      "original_name" = "asav-9-14-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "12147600"
+      "memory_mb" = 49152
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:cc:95"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "MSO"
+      "original_name" = "MSO"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "10078316"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:68:20"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "sec-fmc-7-0-preinstall"
+      "original_name" = "sec-fmc-7-0-preinstall"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "10078317"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6e:6e"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6c:07"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:fd:08"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:69:48"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:aa:05"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6b:f4"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:24:0c"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:69:57"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:5e:e8"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:2d:78"
+          "name" = "Network adapter 10"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "sec-ftd-7-0-preinstall"
+      "original_name" = "sec-ftd-7-0-preinstall"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12990686"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:0f:a4"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:0e:23"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:23:e6"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vmanage3-20-10-1-preconfig"
+      "original_name" = "vmanage3-20-10-1-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12990684"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ec:ad"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:5d:74"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a8:38"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vmanage3-20-8-1-preconfig"
+      "original_name" = "vmanage3-20-8-1-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 78
+      "datacenter" = "RTP"
+      "id" = "13389587"
+      "memory_mb" = 337920
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6c:16"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a3:aa"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a3:12"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "dnac-2-3-3-4-test1"
+      "original_name" = "dnac-2-3-3-4-test1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "12990683"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:b4:df"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:4d:69"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:84:f7"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:b2:bd"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vBond2-20-10-1-preconfig"
+      "original_name" = "vBond2-20-10-1-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "13032833"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:5c:de"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:9a:9c"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:1a:a4"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:2a:0b"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:73:d8"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:f4:00"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ba:0a"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:93:d8"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:14:93"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:93:f6"
+          "name" = "Network adapter 10"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "ftd_v300_7.2.4-165_plr"
+      "original_name" = "ftd_v300_7.2.4-165_plr"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "12990682"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:4c:40"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:3f:6c"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:74:44"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:d4:48"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vbond2-20-8-1-preconfig"
+      "original_name" = "vbond2-20-8-1-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13536675"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:fc:fc"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "windows-server-2022-100gb-preconfig-new"
+      "original_name" = "windows-server-2022-100gb-preconfig-new"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "12990681"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:1e:21"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:99:9e"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vSmart2-20-10-1-preconfig"
+      "original_name" = "vSmart2-20-10-1-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13536676"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.36"
+          "mac_address" = "00:50:56:ac:ac:a2"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = true
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "windows-10-80gb-preconfig-new"
+      "original_name" = "windows-10-80gb-preconfig-new"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12990691"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ef:17"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:69:76"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:19:14"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vmanage2-20-8-1-preconfig"
+      "original_name" = "vmanage2-20-8-1-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "10078320"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ab:dd"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:dc:65"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:01:d9"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6b:0d"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:76:98"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:1a:95"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:69:a5"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ed:c4"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:82:5e"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:f5:9f"
+          "name" = "Network adapter 10"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "sec-ftd-7-0-plr"
+      "original_name" = "sec-ftd-7-0-plr"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "11537581"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "L3-VLAN-4"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:09:11"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-4"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:82:3e"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:46:18"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:00:78"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "generic-vBond_20.8.1"
+      "original_name" = "generic-vBond_20.8.1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "11537582"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "L3-VLAN-4"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:db:64"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:50:17"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:22:7c"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "generic-vManage_20.8.1"
+      "original_name" = "generic-vManage_20.8.1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "11537583"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "L3-VLAN-4"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:28:72"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:73:09"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "generic-vSmart_20.8.1"
+      "original_name" = "generic-vSmart_20.8.1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13266732"
+      "memory_mb" = 20480
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = ""
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = ""
+          "mac_address" = ""
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = ""
+          "mac_address" = ""
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = ""
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = ""
+          "mac_address" = ""
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = ""
+          "mac_address" = ""
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = ""
+          "mac_address" = ""
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = ""
+          "mac_address" = ""
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = ""
+          "mac_address" = ""
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-1"
+          "ip_address" = ""
+          "mac_address" = ""
+          "name" = "Network adapter 10"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "sp_xrv9k-fullk9-x.vga-7.10.1"
+      "original_name" = "sp_xrv9k-fullk9-x.vga-7.10.1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13615063"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:4a:d9"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:77:9e"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vsmart-20-12-2"
+      "original_name" = "vsmart-20-12-2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 1
+      "datacenter" = "RTP"
+      "id" = "12441013"
+      "memory_mb" = 2048
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:fd:1a"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_PCNET_32"
+        },
+      ])
+      "original_description" = "thousandeyes-va_64-20.04.5"
+      "original_name" = "thousandeyes-va_64-20.04.5"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13357768"
+      "memory_mb" = 18432
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:91:3a"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:df:10"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:a1:e1"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:4c:71"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:ae:8b"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:f4:4c"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:15:d7"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:4e:3e"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:f7:56"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cat9kv03-17-11-test"
+      "original_name" = "cat9kv03-17-11-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 6
+      "datacenter" = "RTP"
+      "id" = "13077996"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:40:4a"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6a:e8"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "sw-sdbn_7.4.2"
+      "original_name" = "sw-sdbn_7.4.2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13160104"
+      "memory_mb" = 6144
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.19.133.58"
+          "mac_address" = "00:50:56:97:bb:09"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:82:d4"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:1a:92"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "sma-14-2-0-224-preconfig"
+      "original_name" = "sma-14-2-0-224-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 6
+      "datacenter" = "RTP"
+      "id" = "13077997"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:95:bc"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:36:4d"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "sw-fs_7.4.2"
+      "original_name" = "sw-fs_7.4.2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 6
+      "datacenter" = "RTP"
+      "id" = "13077998"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:17:4e"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "sw-fc_7.4.2"
+      "original_name" = "sw-fc_7.4.2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 6
+      "datacenter" = "RTP"
+      "id" = "13077999"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:8d:bf"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "sw-udpd_7.4.2"
+      "original_name" = "sw-udpd_7.4.2"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 32
+      "datacenter" = "RTP"
+      "id" = "13032841"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:9b:04"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "fmc_v300_7.2.4-169_plr"
+      "original_name" = "fmc_v300_7.2.4-169_plr"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12990692"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:87:39"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:20:e3"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:3e:af"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vmanage2-20-10-1-preconfig"
+      "original_name" = "vmanage2-20-10-1-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 3
+      "datacenter" = "RTP"
+      "id" = "13160103"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.55"
+          "mac_address" = "00:50:56:97:32:5c"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:15:67"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:82:6e"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:e7:af"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:d2:70"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "wsa-14-5-1-016-preconfig"
+      "original_name" = "wsa-14-5-1-016-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13536677"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:9f:b8"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "windows-server-2022-500gb-preconfig-new"
+      "original_name" = "windows-server-2022-500gb-preconfig-new"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13536678"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:94:ff"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "windows-server-2016-80gb-preconfig-new"
+      "original_name" = "windows-server-2016-80gb-preconfig-new"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "12350513"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a4:4f"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:aa:4f"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:1b:9e"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:03:92"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vBond-20.10.1"
+      "original_name" = "vBond-20.10.1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13179993"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:80:58"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:d5:6f"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "tb-broker-node-1-3-2-0-preconfig"
+      "original_name" = "tb-broker-node-1-3-2-0-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 1
+      "datacenter" = "RTP"
+      "id" = "13179991"
+      "memory_mb" = 12288
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:e2:a4"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:80:44"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "securityonion-2-3-noconfig"
+      "original_name" = "securityonion-2-3-noconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13179992"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:8c:d6"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "tb-manager-node-1-3-2-0-preconfig"
+      "original_name" = "tb-manager-node-1-3-2-0-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 18
+      "datacenter" = "RTP"
+      "id" = "11751034"
+      "memory_mb" = 81920
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.133.200"
+          "mac_address" = "00:50:56:97:a9:0b"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:dd:f1"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "acisim-6.0-1g"
+      "original_name" = "acisim-6.0-1g"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 16
+      "datacenter" = "RTP"
+      "id" = "12386524"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:24:63"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:d2:b3"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "CiscoCyberVision414"
+      "original_name" = "CiscoCyberVision414"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "13200914"
+      "memory_mb" = 24576
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.135.205"
+          "mac_address" = "00:50:56:27:2f:29"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vesx-test1"
+      "original_name" = "vesx-test1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13476780"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:5b:c8"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:96:6a"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:78:a6"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "cat8kv-17-09-4a-preconfig-test"
+      "original_name" = "cat8kv-17-09-4a-preconfig-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13187539"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:b8:d7"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "sec-fmc-7-0-plr_DHCP"
+      "original_name" = "sec-fmc-7-0-plr_DHCP"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13187538"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ab:dd"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:f5:9f"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:dc:65"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:01:d9"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6b:0d"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:76:98"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:1a:95"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:69:a5"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ed:c4"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:82:5e"
+          "name" = "Network adapter 10"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "sec-ftd-7-0-plr_DHCP"
+      "original_name" = "sec-ftd-7-0-plr_DHCP"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13103013"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a9:5e"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "Openfiler2.99-v0"
+      "original_name" = "Openfiler2.99-v0"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13177644"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ad:4b"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "kali-2022-small-preconfigured"
+      "original_name" = "kali-2022-small-preconfigured"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13177643"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:b8:50:04"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:b8:15:79"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "amp-private-cloud-preconfigured"
+      "original_name" = "amp-private-cloud-preconfigured"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "13295928"
+      "memory_mb" = 12288
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.134.1"
+          "mac_address" = "00:50:56:98:31:fa"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = true
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "cml-2-6-1"
+      "original_name" = "cml-2-6-1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 1
+      "datacenter" = "RTP"
+      "id" = "12762458"
+      "memory_mb" = 2048
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:b8:36:9e"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:b8:43:c9"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:b8:22:89"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "sec-asav-9-18-3-plr"
+      "original_name" = "sec-asav-9-18-3-plr"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 12
+      "datacenter" = "RTP"
+      "id" = "8182154"
+      "memory_mb" = 32768
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:f8:73"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "sec-ise-radius-gen-20200210"
+      "original_name" = "sec-ise-radius-gen-20200210"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13357782"
+      "memory_mb" = 18432
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:56:73"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:e7:61"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:91:48"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:22:ad"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:d3:5d"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:d6:de"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:7c:dd"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:f6:e9"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:4a:ca"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cat9kv04-17-11-test"
+      "original_name" = "cat9kv04-17-11-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13357784"
+      "memory_mb" = 18432
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:f2:40"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:c1:46"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:5c:b8"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:1b:97"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:b3:ed"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:06:4e"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:7a:1b"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:87:61"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:4b:04"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cat9kv05-17-11-test"
+      "original_name" = "cat9kv05-17-11-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "12450467"
+      "memory_mb" = 24576
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:08:f6"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:c9:cb"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:40:8f"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:6a:0c"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:f9:1c"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:b8:2b"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:22:71"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:17:0e"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:dd:20"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:87:df"
+          "name" = "Network adapter 10"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "xrv9k_7.8.1"
+      "original_name" = "xrv9k_7.8.1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 32
+      "datacenter" = "RTP"
+      "id" = "13032826"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:04:99"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "fmc_v300_7.2.4-169_preinstall"
+      "original_name" = "fmc_v300_7.2.4-169_preinstall"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "13032829"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:3c:ae"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:b7:06"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:f4:80"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:dd:ed"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:1f:30"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:4e:0e"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:cc:0f"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:a0:13"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:b4:8b"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:56:74"
+          "name" = "Network adapter 10"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "ftd_v300_7.2.4-165_preinstall"
+      "original_name" = "ftd_v300_7.2.4-165_preinstall"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 1
+      "datacenter" = "RTP"
+      "id" = "13104514"
+      "memory_mb" = 2048
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:9a:1e"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_PCNET_32"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:59:a1"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_PCNET_32"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:39:b9"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_PCNET_32"
+        },
+      ])
+      "original_description" = "ucspe-4-2-2-preconfig-test"
+      "original_name" = "ucspe-4-2-2-preconfig-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 2
+      "datacenter" = "RTP"
+      "id" = "13144580"
+      "memory_mb" = 8192
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:3f:ff:fe"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "centos-7-desktop-80gb-preconfig"
+      "original_name" = "centos-7-desktop-80gb-preconfig"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 32
+      "datacenter" = "RTP"
+      "id" = "13113102"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:ed:ed"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "fmc_v300_7.2.0-82_dhcp"
+      "original_name" = "fmc_v300_7.2.0-82_dhcp"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "13355495"
+      "memory_mb" = 18432
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:fb:87"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:16:ea"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:7d:15"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:ef:d8"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:d2:b4"
+          "name" = "Network adapter 5"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:b6:f7"
+          "name" = "Network adapter 6"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:67:d4"
+          "name" = "Network adapter 7"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:18:b6"
+          "name" = "Network adapter 8"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:aa:0c:20"
+          "name" = "Network adapter 9"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "cat9kv01-17-11-test"
+      "original_name" = "cat9kv01-17-11-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 32
+      "datacenter" = "RTP"
+      "id" = "13113101"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:44:8c"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "fmc_v300_7.1.0-90_dhcp"
+      "original_name" = "fmc_v300_7.1.0-90_dhcp"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 8
+      "datacenter" = "RTP"
+      "id" = "8797190"
+      "memory_mb" = 16384
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.5.200"
+          "mac_address" = "00:50:56:b8:62:1c"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "sec-splunk-8-0-5"
+      "original_name" = "sec-splunk-8-0-5"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 4
+      "datacenter" = "RTP"
+      "id" = "12350410"
+      "memory_mb" = 4096
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:fd:a6"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:46:5d"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:85:76"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:f0:b9"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "vEdge-20.10.1"
+      "original_name" = "vEdge-20.10.1"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 32
+      "datacenter" = "RTP"
+      "id" = "13113100"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:89:40"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+      ])
+      "original_description" = "fmc_v300_7.3.0-69_dhcp"
+      "original_name" = "fmc_v300_7.3.0-69_dhcp"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+    {
+      "cpu_qty" = 12
+      "datacenter" = "RTP"
+      "id" = "13262122"
+      "memory_mb" = 65536
+      "network_interfaces" = tolist([
+        {
+          "inventory_network_id" = "VLAN-PRIMARY"
+          "ip_address" = "198.18.134.204"
+          "mac_address" = "00:50:56:97:f5:e2"
+          "name" = "Network adapter 1"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_E1000"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-1"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:4e:da"
+          "name" = "Network adapter 2"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L3-VLAN-2"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:bf:43"
+          "name" = "Network adapter 3"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+        {
+          "inventory_network_id" = "L2-VLAN-3"
+          "ip_address" = ""
+          "mac_address" = "00:50:56:97:cf:86"
+          "name" = "Network adapter 4"
+          "rdp_enabled" = false
+          "ssh_enabled" = false
+          "type" = "VIRTUAL_VMXNET_3"
+        },
+      ])
+      "original_description" = "hx-a-4-hx5-test"
+      "original_name" = "hx-a-4-hx5-test"
+      "remote_access_rdp_auto_login" = false
+      "remote_access_rdp_enabled" = false
+      "remote_access_rdp_ssh_enabled" = false
+    },
+  ])
+  "topology_uid" = "5orvq3lgp6vuqd4lb9l9yno9g"
+}

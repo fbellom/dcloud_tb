@@ -1,0 +1,131 @@
+{
+  "id": "1704139000",
+  "inventory_networks": [
+    {
+      "id": "VLAN-PRIMARY",
+      "subnet": "198.18.128.0 /18",
+      "type": "ROUTED"
+    },
+    {
+      "id": "L3-VLAN-1",
+      "subnet": "198.18.1.0 /24",
+      "type": "ROUTED"
+    },
+    {
+      "id": "L3-VLAN-2",
+      "subnet": "198.18.2.0 /24",
+      "type": "ROUTED"
+    },
+    {
+      "id": "L3-VLAN-3",
+      "subnet": "198.18.3.0 /24",
+      "type": "ROUTED"
+    },
+    {
+      "id": "L3-VLAN-4",
+      "subnet": "198.18.4.0 /24",
+      "type": "ROUTED"
+    },
+    {
+      "id": "L2-VLAN-1",
+      "subnet": "198.18.5.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-2",
+      "subnet": "198.18.6.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-3",
+      "subnet": "198.18.7.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-4",
+      "subnet": "198.18.8.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-5",
+      "subnet": "198.18.9.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-6",
+      "subnet": "198.18.10.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-7",
+      "subnet": "198.18.11.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-8",
+      "subnet": "198.18.12.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-9",
+      "subnet": "198.18.13.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-10",
+      "subnet": "198.18.14.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-11",
+      "subnet": "198.18.15.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-12",
+      "subnet": "198.18.16.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-13",
+      "subnet": "198.18.17.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-14",
+      "subnet": "198.18.18.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-15",
+      "subnet": "198.18.19.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-16",
+      "subnet": "198.18.20.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-17",
+      "subnet": "198.18.21.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-18",
+      "subnet": "198.18.22.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-19",
+      "subnet": "198.18.23.0 /24",
+      "type": "UNROUTED"
+    },
+    {
+      "id": "L2-VLAN-20",
+      "subnet": "198.18.24.0 /24",
+      "type": "UNROUTED"
+    }
+  ],
+  "topology_uid": ""
+}
