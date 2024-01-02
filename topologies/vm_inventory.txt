@@ -4563,5 +4563,4 @@ vms = {
       "remote_access_rdp_ssh_enabled" = false
     },
   ])
-  "topology_uid" = "5orvq3lgp6vuqd4lb9l9yno9g"
 }

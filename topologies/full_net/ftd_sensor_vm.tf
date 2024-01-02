@@ -1,6 +1,6 @@
 resource "dcloud_vm" "ftdv_internal" {
     topology_uid = dcloud_topology.topology_iac.id
-    inventory_vm_id = "13032829"
+    inventory_vm_id = "13104514"
     name = "FTDv Internal"
     description = "FTDv Internal"
 
@@ -62,7 +62,7 @@ resource "dcloud_vm" "ftdv_internal" {
 
 resource "dcloud_vm" "ftdv_branch" {
     topology_uid = dcloud_topology.topology_iac.id
-    inventory_vm_id = "13032829"
+    inventory_vm_id = "13104514"
     name = "FTDv Branch"
     description = "FTDv Branch"
 

@@ -1,6 +1,6 @@
 resource "dcloud_vm" "ftdv" {
     topology_uid = dcloud_topology.topology_iac.id
-    inventory_vm_id = "13032829"
+    inventory_vm_id = "13104514"
     name = "Secure Firewall Threat Defense"
     description = "Secure Firewall Threat Defense"
 

@@ -1,6 +1,6 @@
 resource "dcloud_vm" "fmc" {
     topology_uid = dcloud_topology.topology_iac.id
-    inventory_vm_id = "13032841"
+    inventory_vm_id = "13032826"
     name = "Secure Firewall Management Center"
     description = "Secure Firewall Management Center"
 
