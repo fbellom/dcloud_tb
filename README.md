@@ -47,4 +47,4 @@ provider "dcloud" {
 
 ---
 
-by (Freddy Bello)[frbello@cisco.com]
+by [Freddy Bello](frbello@cisco.com)
