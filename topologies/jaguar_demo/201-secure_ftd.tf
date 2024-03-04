@@ -1,6 +1,6 @@
 resource "dcloud_vm" "ftdv" {
     topology_uid = dcloud_topology.topology_iac.id
-    inventory_vm_id = "13104514"
+    inventory_vm_id = "13032829"
     name = "Secure Firewall Threat Defense"
     description = "Secure Firewall Threat Defense"
 
@@ -44,14 +44,14 @@ resource "dcloud_vm" "ftdv" {
         type = "VIRTUAL_VMXNET_3"
     }
     network_interfaces {
-        network_uid = dcloud_network.traffgen_network_network.id
+        network_uid = dcloud_network.traffgen_network.id
         ip_address = "198.18.24.110"
         mac_address = "00:50:56:aa:aa:a8"
         name = "Network adapter 6"
         type = "VIRTUAL_VMXNET_3"
     }
     network_interfaces {
-        network_uid = dcloud_network.traffgen_network_network.id
+        network_uid = dcloud_network.traffgen_network.id
         ip_address = "198.18.24.111"
         mac_address = "00:50:56:aa:aa:a9"
         name = "Network adapter 7"
