@@ -1,4 +1,4 @@
-resource "dcloud_vm" "server" {
+resource "dcloud_vm" "trex_server" {
     topology_uid = dcloud_topology.topology_iac.id
     inventory_vm_id = "13208143"
     name = "TRex Server"

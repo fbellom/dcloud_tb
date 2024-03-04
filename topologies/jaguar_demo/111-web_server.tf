@@ -1,4 +1,4 @@
-resource "dcloud_vm" "server" {
+resource "dcloud_vm" "web_server" {
     topology_uid = dcloud_topology.topology_iac.id
     inventory_vm_id = "13208143"
     name = "CentOS 7 Server"

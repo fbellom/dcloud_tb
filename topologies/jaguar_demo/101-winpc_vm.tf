@@ -1,4 +1,4 @@
-resource "dcloud_vm" "jumphost" {
+resource "dcloud_vm" "winpc" {
     topology_uid = dcloud_topology.topology_iac.id
     inventory_vm_id = "13536676"
     name = "Jumphost"
